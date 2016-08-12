@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1 id="titulo">Título</h1>
+
+    <button onclick="minhaFunction()">Clique aqui</button>
+
+    <script>
+        function mostraAlerta() {
+            alert("Olá Mundo");
+        }
+
+        mostraAlerta()
+        
+        var titulo = document.querySelector("#titulo");
+
+        titulo.style.color = "red";
+        titulo.textContent = "Esse título aqui foi substituído";
+
+
+        function minhaFunction(){
+                alert("teste do onclick")
+        }
+    </script>
+</body>
+</html>

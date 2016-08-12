@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+
+    <style>
+        .alerta {
+            padding: 15px;
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+        }
+        
+        .perigo {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+        }
+    </style>
+</head>
+<body>
+    <div class="alerta">
+        Falta pouco para acabar nossas aulas
+    </div>
+
+    <button class="btn">Clique aqui!</button>
+
+    <script type="text/javascript">
+        var alerta = document.querySelector(".alerta");
+        var botao = document.querySelector(".btn");
+        
+        function trocaClasse() {
+            alerta.classList.add("perigo");
+            // alerta.classList.remove("perigo");
+            // alerta.classList.toggle("perigo");
+        }
+        
+        botao.onclick = function(){
+            trocaClasse();
+        }
+    </script>
+</body>
+</html>

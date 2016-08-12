@@ -1,0 +1,59 @@
+* {
+	-webkit-box-sizing: border-box; /* suporte ao chrome e safari */
+       -moz-box-sizing: border-box; /* suporte Firefox */
+        -ms-box-sizing: border-box; /* suporte IE */
+            box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 15px;
+}
+
+.sumir-celular {
+    background-color: #ED719D;
+}
+.sumir-tablet {
+    background-color: #93E3FE;
+}
+
+.sumir-navegador {
+    background-color: #EBF38F;
+}
+
+
+@media screen and ( max-width: 768px ) {
+    .sumir-tablet {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 320px ) {
+    .sumir-celular {
+        display: none;
+    }
+}
+
+@media screen and ( max-width: 1220px ) {
+    .sumir-navegador {
+        display: none;
+    }
+}
+
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.caixa-flutuante {
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: 2px solid pink;
+    padding: 20px;
+    margin: 20px;
+}

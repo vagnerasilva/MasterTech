@@ -1,0 +1,59 @@
+.vermelho {
+    color: #f00f00;
+}
+
+.verde {
+    color: rgb(91, 193, 84);
+}
+
+.nome {
+    color: blue;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.arial {
+    font-family:"Arial", "Helvetica", sans-serif;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.line-height {
+    line-height: 3px;
+}
+
+.letter-spacing {
+    letter-spacing: 3px;
+}
+
+.word-spacing {
+    word-spacing: 15px;
+}
+
+* {
+	-webkit-box-sizing: border-box; /* suporte ao chrome e safari */
+       -moz-box-sizing: border-box; /* suporte Firefox */
+        -ms-box-sizing: border-box; /* suporte IE */
+            box-sizing: border-box;
+}
+
+.box {
+    width: 50%;
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: gray;
+}

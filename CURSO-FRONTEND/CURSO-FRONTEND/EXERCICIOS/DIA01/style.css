@@ -1,0 +1,14 @@
+/* Atributo id="box-principal" */
+#box-principal {
+    background-color: pink;
+}
+
+/* Atributo class="titulo" */
+.titulo {
+    color: purple;
+}
+
+/* Atributo <p>...</p> */
+p {
+    color: gray;
+}

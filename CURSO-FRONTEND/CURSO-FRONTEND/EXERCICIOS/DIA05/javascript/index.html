@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascrip</title>
+    
+    <script src="jquery-3.0.0.min.js"></script>
+    
+    <style>
+      .alerta {
+        padding: 15px;
+        background-color: #DFF0D8;
+        color: #3C763D;
+        border: 1px solid #D6E9C6;
+        font-size: 24px;
+      } 
+        
+        .atencao {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+        } 
+    </style>
+</head>
+<body>
+    <div class="alerta">
+        Bom dia pessoal!
+    </div>
+    
+    <button class="botao">Cliquei aqui!</button>
+
+    <script>
+        var botao = $(".botao")
+        
+        botao.click(function(){
+            var idade = 10;
+            if(idade >= 18) {
+                $(".alerta").addClass("atencao");    
+            }
+            
+        });
+
+
+        // var alerta = document.querySelector(".alerta");
+        // var botao = document.querySelector(".botao");
+
+        // botao.onclick = function() {
+        //     alerta.classList.add("atencao");
+        //     alerta.textContent = "Hoje é nosso ultimo dia de aula Legal!"
+        // }
+    </script>
+</body>
+</html>

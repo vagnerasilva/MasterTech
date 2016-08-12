@@ -1,0 +1,96 @@
+* {
+    -webkit-box-sizing: border-box; /* suporte ao chrome e safari */
+       -moz-box-sizing: border-box; /* suporte Firefox */
+        -ms-box-sizing: border-box; /* suporte IE */
+            box-sizing: border-box;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+
+  border: 2px solid green;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.header {
+    padding-top: 10px;
+    background-color: #b1947c;
+}
+
+.logo {
+    text-align: center;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-titulo {
+    color: #ffffff;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.banner-texto {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.tipos-batatas {
+    background-image: url(images/background.png);
+    background-size: 100%;
+    background-position: center;
+
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titulo-h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    text-align: center;
+    color: #747474;
+}
+
+.subtitulo {
+    color: #747474;
+    font-size: 24px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.box {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    border: 1px solid red;
+}
+
+.box h3 {
+    color: #747474;
+    font-size: 24px;
+}
+
+.box p {
+    color: #747474;
+    font-size: 14px;
+}
+
+@media (max-width: 768px){
+    .box {
+        float: none;
+        width: 100%;
+    }
+}
